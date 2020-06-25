@@ -1,5 +1,0 @@
-Animal.java
-Character.java
-Person.java
-Scenario.java
-ScenarioGenerator.java
