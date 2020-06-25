@@ -46,7 +46,7 @@ public class Person extends Character{
      * Copy constructor
      * @param p a person
      */
-    public Person(Person p){
+    public Person(Person p) {
         super(p.getAge(), p.getGender(), p.getBodyType());
         this.profession = p.profession;
         this.isPregnant = p.isPregnant;
