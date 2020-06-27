@@ -146,7 +146,7 @@ public class Audit {
     }
 
     private void entryUpdate(String key, int modifier) {
-        if (!key.equals("UNKNOWN") && !key.equals("NONE")){
+        if (!key.equals("UNKNOWN") && !key.equals("NONE") && !key.equals("UNSPECIFIED")){
             statisticsDatabase.putIfAbsent(key, new int[]{0, 0});
             int[] entry = statisticsDatabase.get(key);
             statisticsDatabase.replace(key, new int[]{entry[0]+1, entry[1]+modifier});
