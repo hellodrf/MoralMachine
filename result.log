@@ -1,0 +1,118 @@
+======================================
+# Unspecified Audit
+======================================
+- % SAVED AFTER 100000 RUNS
+pregnant: 0.8
+baby: 0.8
+child: 0.8
+you: 0.8
+doctor: 0.7
+firefighter: 0.7
+athletic: 0.7
+female: 0.7
+average: 0.7
+student: 0.7
+unspecified: 0.7
+person: 0.7
+male: 0.6
+professor: 0.6
+overweight: 0.6
+adult: 0.6
+ceo: 0.6
+janitor: 0.6
+unemployed: 0.6
+senior: 0.6
+homeless: 0.6
+green: 0.6
+red: 0.6
+criminal: 0.5
+pet: 0.5
+chicken: 0.5
+cat: 0.5
+horse: 0.5
+duck: 0.5
+animal: 0.5
+monkey: 0.5
+dog: 0.5
+pig: 0.5
+--
+average age: 46.8
+
+======================================
+# Unspecified Audit
+======================================
+- % SAVED AFTER 100000 RUNS
+baby: 0.8
+pregnant: 0.8
+child: 0.8
+you: 0.8
+firefighter: 0.7
+doctor: 0.7
+athletic: 0.7
+female: 0.7
+person: 0.7
+average: 0.7
+student: 0.6
+male: 0.6
+overweight: 0.6
+professor: 0.6
+adult: 0.6
+janitor: 0.6
+unemployed: 0.6
+ceo: 0.6
+senior: 0.6
+homeless: 0.6
+green: 0.6
+red: 0.6
+criminal: 0.5
+pet: 0.5
+dog: 0.5
+horse: 0.5
+duck: 0.5
+chicken: 0.5
+animal: 0.5
+pig: 0.5
+monkey: 0.5
+cat: 0.4
+--
+average age: 46.7
+
+======================================
+# Unspecified Audit
+======================================
+- % SAVED AFTER 100000 RUNS
+baby: 0.9
+pregnant: 0.8
+child: 0.8
+you: 0.8
+doctor: 0.7
+firefighter: 0.7
+female: 0.7
+athletic: 0.7
+average: 0.7
+person: 0.7
+student: 0.6
+male: 0.6
+professor: 0.6
+overweight: 0.6
+unemployed: 0.6
+adult: 0.6
+ceo: 0.6
+janitor: 0.6
+senior: 0.6
+homeless: 0.6
+green: 0.6
+red: 0.6
+criminal: 0.5
+pet: 0.5
+duck: 0.5
+horse: 0.5
+pig: 0.5
+chicken: 0.5
+animal: 0.5
+dog: 0.5
+monkey: 0.5
+cat: 0.5
+--
+average age: 46.7
+
