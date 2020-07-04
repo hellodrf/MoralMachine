@@ -185,6 +185,7 @@ public class Audit {
      * Convert audit statistics to string
      * @return string representing an audit
      */
+    @Override
     public String toString() {
         StringBuilder string = new StringBuilder();
         string.append("======================================\n");
