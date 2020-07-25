@@ -5,10 +5,12 @@ The idea of **Moral Machines** is based on the **Trolley Dilemma**, a fictional 
 
 
 
-**Ethical Engine** is a program designed to **explore different scenarios**, 
+**Ethical Engine** is a program designed to **explore different scenarios**.
+
 The scenario entails an autonomous car whose brakes fail at a **pedestrian crossing**. 
 As it is too late to relinquish control to the car’s passengers, the car needs to make a decision based on the facts 
 available about the situation.
+
 The program **comes with an algorithm** to decide between **the life of the car’s passengers vs. the life of the pedestrians**. You also can audit your decision-making 
 algorithm through simulations by judging the outcomes yourself.
 
