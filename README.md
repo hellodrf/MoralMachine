@@ -8,8 +8,8 @@ As it is too late to relinquish control to the car’s passengers, the car needs
 available about the situation.
 
 **Ethical Engine** is a program designed to **explore different scenarios**, 
-with an algorithm to decide between **the life of the car’s passengers vs. the life of the pedestrians**. You can audit your decision-making 
-algorithm through simulations, and allow users of your program to judge the outcomes themselves.
+comes with an algorithm to decide between **the life of the car’s passengers vs. the life of the pedestrians**. You also can audit your decision-making 
+algorithm through simulations by judging the outcomes yourself.
 
 ----
 Usage: 
