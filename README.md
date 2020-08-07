@@ -24,4 +24,4 @@ Arguments:
 
 `-r` or `--results` Optional: path to result log file
 
-`-i` or `--interactive` Optional: launches interactive mode;
+`-i` or `--interactive` Optional: launches interactive mode
