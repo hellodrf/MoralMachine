@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/DecisionEngine.java
  * The engine to make decisions.
  *
- * Runfeng Du 900437
+ * Runfeng Du
  */
 
 import ethicalengine.Animal;
