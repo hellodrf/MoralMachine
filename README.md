@@ -1,7 +1,7 @@
 # MoralMachine
 (Melbourne University COMP90041 Final Project)
 
-The idea of **Moral Machines** is based on the **Trolley Dilemma**, a fictional scenario presenting a **decision maker** with a moral dilemma: choosing ”the lesser of two evils”. 
+The idea of **Moral Machines** is based on the **Trolley Dilemma**, a fictional scenario presenting a decision maker with a moral dilemma: choosing ”the lesser of two evils”. 
 
 
 
