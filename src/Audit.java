@@ -2,7 +2,7 @@
  * Moral Machine: Audit.java
  * manages audit sessions.
  *
- * Runfeng Du 900437
+ * Runfeng Du
  */
 
 import ethicalengine.*;
