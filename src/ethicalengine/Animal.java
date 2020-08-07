@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/Animal.java
  * Animals in scenarios.
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 package ethicalengine;
 

@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/DecisionEngine.java
  * The engine to make decisions.
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 
 import ethicalengine.Animal;
@@ -18,40 +18,40 @@ public class DecisionEngine {
     /*
      * Merits of characteristics
      */
-    final HashMap<Person.Profession, Double> professionMerit =
-            new HashMap<Person.Profession, Double>() {
-        { put(CEO, 1.0);
-          put(CRIMINAL, 0.5);
-          put(DOCTOR, 1.5);
-          put(FIREFIGHTER, 1.5);
-          put(JANITOR, 1.0);
-          put(HOMELESS, 0.7);
-          put(UNEMPLOYED, 1.0);
-          put(STUDENT, 1.1);
-          put(PROFESSOR, 1.1);
-          put(Person.Profession.UNKNOWN, 1.0);
-          put(NONE, 1.0);
-          put(null, 1.0);
-        }
-    };
-    final HashMap<Person.AgeCategory, Double> ageTypeMerit =
-            new HashMap<Person.AgeCategory, Double>() {
-        { put(BABY, 3.0);
-          put(CHILD, 2.5);
-          put(ADULT, 1.0);
-          put(SENIOR, 0.8);
-          put(null, 1.0);
-        }
-    };
-    final HashMap<Character.BodyType, Double> bodyTypeMerit =
-            new HashMap<Character.BodyType, Double>() {
-        { put(AVERAGE, 1.0);
-          put(ATHLETIC, 1.05);
-          put(OVERWEIGHT, 0.95);
-          put(UNSPECIFIED, 1.0);
-          put(null, 1.0);
-        }
-    };
+    final HashMap<Person.Profession, Double> professionMerit = new HashMap<>() {
+                {
+                    put(CEO, 1.0);
+                    put(CRIMINAL, 0.5);
+                    put(DOCTOR, 1.5);
+                    put(FIREFIGHTER, 1.5);
+                    put(JANITOR, 1.0);
+                    put(HOMELESS, 0.7);
+                    put(UNEMPLOYED, 1.0);
+                    put(STUDENT, 1.1);
+                    put(PROFESSOR, 1.1);
+                    put(Person.Profession.UNKNOWN, 1.0);
+                    put(NONE, 1.0);
+                    put(null, 1.0);
+                }
+            };
+    final HashMap<Person.AgeCategory, Double> ageTypeMerit = new HashMap<>() {
+                {
+                    put(BABY, 3.0);
+                    put(CHILD, 2.5);
+                    put(ADULT, 1.0);
+                    put(SENIOR, 0.8);
+                    put(null, 1.0);
+                }
+            };
+    final HashMap<Character.BodyType, Double> bodyTypeMerit = new HashMap<>() {
+                {
+                    put(AVERAGE, 1.0);
+                    put(ATHLETIC, 1.05);
+                    put(OVERWEIGHT, 0.95);
+                    put(UNSPECIFIED, 1.0);
+                    put(null, 1.0);
+                }
+            };
     final double illegalCrossingDemerit = 0.7;
     final double pregnantMerit = 3.0;
     final double animalMerit = 0.01;

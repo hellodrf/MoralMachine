@@ -2,7 +2,7 @@
  * Moral Machine: Audit.java
  * manages audit sessions.
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 
 import ethicalengine.*;
@@ -84,24 +84,16 @@ public class Audit {
             while (!decisionMade){
                 System.out.println();
                 System.out.println("Who should be saved? (passenger(s) [1] or pedestrian(s) [2])");
-                switch (scannerObject.nextLine()){
-                    case "passenger":
-                    case "passengers":
-                    case "1":
+                switch (scannerObject.nextLine()) {
+                    case "passenger", "passengers", "1" -> {
                         decision = EthicalEngine.Decision.PASSENGERS;
                         decisionMade = true;
-                        break;
-
-                    case "pedestrian":
-                    case "pedestrians":
-                    case "2":
+                    }
+                    case "pedestrian", "pedestrians", "2" -> {
                         decision = EthicalEngine.Decision.PEDESTRIANS;
                         decisionMade = true;
-                        break;
-
-                    default:
-                        System.out.print("Invalid response. ");
-                        break;
+                    }
+                    default -> System.out.print("Invalid response. ");
                 }
             }
             this.updateStatistics(s, decision);

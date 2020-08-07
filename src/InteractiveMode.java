@@ -2,7 +2,7 @@
  * Moral Machine: InteractiveMode.java
  * Manages interactive sessions
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 
 import ethicalengine.Scenario;

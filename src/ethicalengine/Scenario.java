@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/Scenario.java
  * Scenarios to be judged.
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 package ethicalengine;
 

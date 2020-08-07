@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/Person.java
  * Persons in scenarios.
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 
 package ethicalengine;

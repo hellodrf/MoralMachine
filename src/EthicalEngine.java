@@ -2,7 +2,7 @@
   Moral Machine: EthicalEngine.java
   Main script for process management.
 
-  Runfeng Du 900437
+  ©Runfeng Du
  */
 
 import ethicalengine.*;

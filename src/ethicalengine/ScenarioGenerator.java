@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/ScenarioGenerator.java
  * Generate scenarios.
  *
- * Runfeng Du 900437
+ * ©Runfeng Du
  */
 package ethicalengine;
 

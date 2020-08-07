@@ -2,7 +2,7 @@
  * Moral Machine: ethicalengine/Character.java
  * Characters in scenarios.
  *
- * Runfeng Du 900437
+ * Runfeng Du
  */
 package ethicalengine;
 
